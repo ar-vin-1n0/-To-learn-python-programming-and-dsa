@@ -92,11 +92,11 @@ path.read_bytes() #reads binary
 path.write_bytes() #writes binary to file
 
 #iteration of directory
-for item in Path(".").iterdir():
+for item in Path("").iterdir():
     print(item)
 
 #recursive glob find all need file from a dir even if it is  nested dir
-for file in Path(".").rglob("*.py"):
+for file in Path("").rglob("*.py"):
     print(file)
 
 
