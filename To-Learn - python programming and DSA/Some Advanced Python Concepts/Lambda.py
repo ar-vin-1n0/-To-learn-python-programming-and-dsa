@@ -78,5 +78,3 @@ resultB = sorted(
 )
 
 print(resultB)
-
-#Sort based on length
